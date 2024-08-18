@@ -48,6 +48,9 @@ Este proyecto es una solución PHP integral para la protección contra inyeccion
 
 1. Configura la MFA desde `mfa_setup.php`.
 2. Verifica el código MFA desde `mfa_verification.php`.
+3. Inicia sesión: Usa el formulario de inicio de sesión proporcionado para autenticarte con MFA.
+4. Administra el sistema: Utiliza las funcionalidades de protección contra inyecciones SQL y autenticación MFA a través de la interfaz de usuario.
+
 
 ## Contribuciones
 
