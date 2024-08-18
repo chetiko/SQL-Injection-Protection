@@ -1,0 +1,37 @@
+{
+    "name": "chetiko/sql-injection-protection",
+    "description": "Una solución PHP que implementa autenticación multifactor (MFA) y protección contra inyecciones SQL para mejorar la seguridad de las aplicaciones web.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "sonata/google-authenticator": "^1.0",
+        "ext-mysqli": "*",
+        "monolog/monolog": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+    "psr-4": {
+        "SQLInjectionProtection\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Dependencias instaladas con éxito.'"
+        ],
+        "post-update-cmd": [
+            "echo 'Dependencias actualizadas con éxito.'"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marsella Pérez",
+            "email": "marse.mp24@gmail.com"
+        }
+    ]
+}
