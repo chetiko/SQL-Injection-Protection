@@ -32,7 +32,7 @@ Este proyecto es una solución PHP integral para la protección contra inyeccion
 
 2. Navega al directorio del proyecto:
     ```bash
-    cd mi-proyecto
+    cd sql-injection-protection
     ```
 
 3. Instala las dependencias de Composer:
