@@ -28,7 +28,7 @@ Este proyecto es una solución PHP integral para la protección contra inyeccion
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/chetiko/sql-injection-protection.git
-
+   ```
 
 2. Navega al directorio del proyecto:
     ```bash
